@@ -1,0 +1,128 @@
+h1 {
+    font-family:"Copperplate";
+    text-align:left;
+    color:purple;
+    font-size: 30px;
+}
+h2 {
+    font-family:"Comic Sans MS";
+    text-align:center;
+    color: deeppink;
+    font-size: 40px;
+}
+
+ul{
+    list-style: square;
+}
+
+li{
+    font-family:"Lucida Handwriting";
+    font-size: 25px;
+    color: forestgreen;
+}
+
+input[type=radio]{
+    border: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+p{
+    font-family: "Calisto MT";
+    font-size: 50px;
+    text-decoration: wavy;
+    text-decoration-line:overline;
+}
+footer{
+       background-color:ivory;
+       color: midnightblue;
+       direction: rtl;
+}
+
+article{
+    font-family:cursive;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow:midnightblue;
+    text-decoration: dashed;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.popup {
+    margin:20px;
+    padding: 20px;
+    background:crimson;
+    border-radius: 5px;
+    width: 30%;
+    position:sticky;
+}
+
+/* Quiz Classes */
+.quizContainer {
+    background-color: honeydew;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top:auto;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    position: relative;
+}
+
+.nextButton{
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    background-color: indianred;
+    color: lightgoldenrodyellow;
+    font-family: "Lucida Sans";
+    font-weight: bolder;
+    position: relative;
+    margin: auto;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+
+.question{
+    font-family: "Baskerville";
+    font-size: 40px;
+    width: 50%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 1px;
+    background-color: brown;
+    text-align: left;
+    color:beige;
+}
+
+.quizMessage{
+    background-color: navajowhite;
+    border-radius: 15px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-family: "Copperplate Gothic Light";
+    color: red;
+}
+
+.choiceList {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: "Lucida Console";
+}
